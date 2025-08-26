@@ -115,7 +115,8 @@ const Footer = () => {
                 <li>
                   <Link
                     className="transition-all delay-100 hover:text-[#54C339]"
-                    href="/privacy-policy"
+                    href="https://rooktook.com/privacy-policy"
+                    target="_blank"
                   >
                     Privacy Policy
                   </Link>
@@ -126,7 +127,8 @@ const Footer = () => {
                 <li>
                   <Link
                     className="transition-all delay-100 hover:text-[#54C339]"
-                    href="/refund-policy"
+                    href="https://rooktook.com/refund-policy"
+                    target="_blank"
                   >
                     Refund Policy
                   </Link>
@@ -137,7 +139,8 @@ const Footer = () => {
                 <li>
                   <Link
                     className="transition-all delay-100 hover:text-[#54C339]"
-                    href="/terms-and-conditions"
+                    href="https://rooktook.com/terms-and-conditions"
+                    target="_blank"
                   >
                     Terms & Conditions
                   </Link>
