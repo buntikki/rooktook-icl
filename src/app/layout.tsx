@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: meta.title,
     description: meta.description,
-    url: "https://www.icl.com",
+    url: "https://www.indianchessleague.com/",
     siteName: "ICL",
     images: [
       {
