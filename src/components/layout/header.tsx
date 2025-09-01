@@ -1,6 +1,6 @@
 "use client";
 
-import StairsLogo from "@/../public/images/stairs-logo.svg";
+import StairsLogo from "@/../public/images/stairs-logo.webp";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -40,7 +40,7 @@ export default function Header() {
               <Image src={RookTookLogo} alt="rooktook" width={210} height={32} />
             </Link>
 
-            <Image src={StairsLogo} height={60} width={60} alt="stairs-logo" />
+            <Image src={StairsLogo} height={85} width={85} alt="stairs-logo" />
           </div>
         </motion.header>
       </AnimatePresence>

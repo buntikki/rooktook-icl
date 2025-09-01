@@ -1,8 +1,8 @@
 import Image, { StaticImageData } from "next/image";
-import goldTrophy from "@/../public/images/gold-trophy.png";
-import silverTrophy from "@/../public/images/silver-trophy.png";
-import bronzeTrophy from "@/../public/images/bronze-trophy.png";
-import bronzeTrophy2 from "@/../public/images/bronze-2-trophy.png";
+import goldTrophy from "@/../public/images/gold-trophy.webp";
+import silverTrophy from "@/../public/images/silver-trophy.webp";
+import bronzeTrophy from "@/../public/images/bronze-trophy.webp";
+import bronzeTrophy2 from "@/../public/images/bronze-2-trophy.webp";
 import FrostyImage from "@/../public/images/frosty-noise.webp";
 
 

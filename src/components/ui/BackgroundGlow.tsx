@@ -11,7 +11,7 @@ export const BackgroundGlow = ({
 }) => (
   <div
     aria-hidden="true"
-    className="pointer-events-none absolute"
+    className="pointer-events-none absolute hidden md:block"
     style={{
       left,
       top,

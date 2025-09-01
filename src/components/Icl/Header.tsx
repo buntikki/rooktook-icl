@@ -94,7 +94,7 @@ const InfoFolders = () => (
     {folderData.map((item, index) => (
       <div
         key={index}
-        className="relative h-[200px] max-w-[220px] min-w-[170px] p-4 sm:p-5"
+        className="relative h-[200px] max-w-[220px] min-w-[120px] p-4 sm:p-5"
       >
         <Image
           src={FileBackground}
