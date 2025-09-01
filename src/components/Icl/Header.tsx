@@ -10,7 +10,6 @@ import Image from "next/image";
 import { RegisterController } from "./RegistrationController";
 import { BackgroundPieces } from "../ui/AnimatedChessItems";
 
-
 export const TournamentHeader = () => {
   return (
     <div className="relative min-h-[100dvh] md:h-[100dvh]">
@@ -57,12 +56,12 @@ export const TournamentHeader = () => {
               </p>
 
               <div className="mt-7 hidden md:flex flex-wrap items-stretch justify-center gap-4 md:justify-start">
-                {/* <a
-                  href="#explore"
-                  className="inline-flex items-center justify-center rounded-[10px] border border-white/20 bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10"
+                <a
+                  href=""
+                  className="inline-flex items-center justify-center rounded-[12px] border border-white bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
                 >
                   EXPLORE TOURNAMENT
-                </a> */}
+                </a>
                 <RegisterController />
               </div>
             </div>
@@ -81,7 +80,7 @@ const folderData = [
     subLabel: "FINALE",
     icon: TrophyIcon,
   },
-  { mainText: "5 Players\nper team", subLabel: "TEAM FORMAT", icon: PinIcon },
+  { mainText: "5 Players\nper Team", subLabel: "TEAM FORMAT", icon: PinIcon },
   {
     mainText: "November\n2025",
     subLabel: "ZONAL EVENTS BEGIN",

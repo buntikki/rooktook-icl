@@ -171,7 +171,7 @@ const Footer = () => {
           <div>
             <p className="text-lg font-semibold text-[#a9a9a9]">Disclaimer</p>
             <ul className="text-sm text-white/40">
-              <li>You must be 16 or older to create an account on RookTook.</li>
+              {/* <li>You must be 16 or older to create an account on RookTook.</li> */}
               <li>
                 This is for entertainment purposes only. Winning a tournament on
                 RookTook depends on knowledge and skill. It is available to play

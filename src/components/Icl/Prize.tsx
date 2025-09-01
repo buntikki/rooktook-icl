@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import goldTrophy from "@/../public/images/gold-trophy.png";
 import silverTrophy from "@/../public/images/silver-trophy.png";
 import bronzeTrophy from "@/../public/images/bronze-trophy.png";
+import bronzeTrophy2 from "@/../public/images/bronze-2-trophy.png";
 import FrostyImage from "@/../public/images/frosty-noise.webp";
 
 
@@ -50,23 +51,23 @@ const PrizeItem = ({ label, amount, image }: TPrizeItem) => {
 
 const prizes = [
   {
-    label: "1 ST TEAM",
+    label: "1ST TEAM",
     amount: "₹1,00,00,000",
     image: goldTrophy,
   },
   {
-    label: "2 ND TEAM",
+    label: "2ND TEAM",
     amount: "₹50,00,000",
     image: silverTrophy,
   },
   {
-    label: "3 RD TEAM",
+    label: "3RD TEAM",
     amount: "₹30,00,000",
     image: bronzeTrophy,
   },
   {
-    label: "4 TH - 8 TH TEAMS",
+    label: "4TH - 8TH TEAMS",
     amount: "₹10,00,000 Each",
-    image: goldTrophy,
+    image: bronzeTrophy2,
   },
 ];

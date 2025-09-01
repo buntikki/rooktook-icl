@@ -19,57 +19,61 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-      <div>
-        <FloatingNavbar />
-        <TournamentHeader />
-        <div className="relative flex flex-col items-center self-center overflow-hidden bg-[#13191D]">
-          <div className="flex w-full max-w-[1200px] flex-col px-8">
-            <div id="about-tournament" className="scroll-mt-24">
-              <AboutTournament />
-            </div>
-  
-            <BackgroundGlow height={330} width={330} left={"0%"} top={"15%"} />
-  
-            <div id="tournament-rules" className="scroll-mt-24">
-              <JoinTournament />
-            </div>
-  
-            <div id="tournament-registration" className="scroll-mt-24">
-              <TournamentRegistration />
-            </div>
-  
-            <BackgroundGlow height={330} width={330} top="45%" left="90%" />
-  
-            <div id="tournament-prize" className="scroll-mt-24">
-              <Prize />
-            </div>
-  
-            <BackgroundGlow height={330} width={330} top="50%" left="0%" />
-  
-            <div id="tournament-contact" className="scroll-mt-24">
-              <Contact />
-            </div>
-  
-            <div id="tournament-faqs" className="scroll-mt-24">
-              <Faqs />
-            </div>
-  
-            <div id="about-organizers" className="scroll-mt-24">
-              <AboutOrganizers />
-            </div>
+    <div>
+      <FloatingNavbar />
+      <TournamentHeader />
+      <div className="relative flex flex-col items-center self-center overflow-hidden bg-[#13191D]">
+        <div className="flex w-full max-w-[1200px] flex-col px-8">
+          <div id="about-tournament" className="scroll-mt-24">
+            <AboutTournament />
+          </div>
+
+          <BackgroundGlow height={330} width={330} left={"0%"} top={"15%"} />
+
+          <div id="tournament-rules" className="scroll-mt-24">
+            <JoinTournament />
+          </div>
+
+          <div id="tournament-registration" className="scroll-mt-24">
+            <TournamentRegistration />
+          </div>
+
+          <BackgroundGlow height={330} width={330} top="45%" left="90%" />
+
+          <div id="tournament-prize" className="scroll-mt-24">
+            <Prize />
+          </div>
+
+          <BackgroundGlow height={330} width={330} top="50%" left="0%" />
+
+          <div id="tournament-contact" className="scroll-mt-24">
+            <Contact />
+          </div>
+
+          <div id="tournament-faqs" className="scroll-mt-24">
+            <Faqs />
+          </div>
+
+          <div id="about-organizers" className="scroll-mt-24">
+            <AboutOrganizers />
           </div>
         </div>
-        <BottomBarCTA />
       </div>
+      <BottomBarCTA />
+    </div>
   );
 }
-
-
 
 const BottomBarCTA = () => {
   return (
     <div className="relative z-100">
-      <div className="fixed bottom-0 flex w-full items-center justify-center self-center bg-[#13191D]/80 p-3 py-4 shadow-lg shadow-black/20 backdrop-blur-md sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
+      <div className="fixed flex-col gap-3 bottom-0 flex w-full items-center justify-center self-center bg-[#13191D]/80 p-3 py-4 shadow-lg shadow-black/20 backdrop-blur-md sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
+        <a
+          href=""
+          className="inline-flex w-full items-center justify-center rounded-[12px] border border-white bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
+        >
+          EXPLORE TOURNAMENT
+        </a>
         <RegisterController />
       </div>
     </div>
