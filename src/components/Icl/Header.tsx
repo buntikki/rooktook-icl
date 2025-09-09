@@ -57,10 +57,11 @@ export const TournamentHeader = () => {
 
               <div className="mt-7 hidden md:flex flex-wrap items-stretch justify-center gap-4 md:justify-start">
                 <a
-                  href=""
+                  href="https://drive.google.com/file/d/1nfwKA_M_DPAfvx5myHWJddtL64dqg6ay/view?usp=sharing"
+                  target="_blank"
                   className="inline-flex items-center justify-center rounded-[12px] border border-white bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
                 >
-                  EXPLORE TOURNAMENT
+                  MORE INFO
                 </a>
                 <RegisterController />
               </div>

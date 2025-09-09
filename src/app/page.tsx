@@ -69,10 +69,11 @@ const BottomBarCTA = () => {
     <div className="relative z-100">
       <div className="fixed flex-col gap-3 bottom-0 flex w-full items-center justify-center self-center bg-[#13191D]/80 p-3 py-4 shadow-lg shadow-black/20 backdrop-blur-md sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
         <a
-          href=""
+          href="https://drive.google.com/file/d/1nfwKA_M_DPAfvx5myHWJddtL64dqg6ay/view?usp=sharing"
+          target="_blank"
           className="inline-flex w-full items-center justify-center rounded-[12px] border border-white bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
         >
-          EXPLORE TOURNAMENT
+          MORE INFO
         </a>
         <RegisterController />
       </div>
