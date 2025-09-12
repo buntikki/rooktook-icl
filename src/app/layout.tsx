@@ -20,7 +20,21 @@ const meta = {
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
-  keywords: [],
+  keywords: [
+    "ICL",
+    "Indian Chess League",
+    "Chess League",
+    "Chess Tournament",
+    "Chess Competition",
+    "Chess Online",
+    "Chess Offline",
+    "Chess League India",
+    "Chess Tournament India",
+    "Chess Competition India",
+    "Chess Online India",
+    "Chess Offline India",
+    "Chess League India",
+  ],
   openGraph: {
     title: meta.title,
     description: meta.description,

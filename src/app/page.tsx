@@ -9,13 +9,6 @@ import { TournamentRegistration } from "@/components/Icl/Registration";
 import { RegisterController } from "@/components/Icl/RegistrationController";
 import { JoinTournament } from "@/components/Icl/Rules";
 import { BackgroundGlow } from "@/components/ui/BackgroundGlow";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "ICL Registration",
-  description:
-    "Register on ICL to play chess online and win real rewards. Join free or paid tournaments, solve puzzles, and compete in blitz and bullet formats against real players.",
-};
 
 export default function Home() {
   return (
