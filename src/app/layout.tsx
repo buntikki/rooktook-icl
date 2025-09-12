@@ -12,9 +12,9 @@ const bricolage = Bricolage_Grotesque({
 });
 
 const meta = {
-  title: "Play ICL tournament online – win real rewards",
+  title: "Indian Chess League - India’s First and Largest Chess League",
   description:
-    "Play free or paid chess tournaments online. Solve puzzles and compete in blitz and bullet. 1v1 VS real players.",
+    "RookTook Indian Chess League (ICL) is India’s first and largest chess League that brings casual, amateur and pro players together to compete in chess.",
 };
 
 export const metadata: Metadata = {
