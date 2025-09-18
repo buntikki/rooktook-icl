@@ -69,6 +69,13 @@ const BottomBarCTA = () => {
           MORE INFO
         </a>
         <RegisterController />
+        <a
+          href="https://drive.google.com/file/d/16zEUpFOPQiWSd6-xSGBozAyA35CM9-V-/view?usp=sharing"
+          target="_blank"
+          className="text-left text-md font-semibold self-center text-white underline hover:text-white/80 transition-colors cursor-pointer"
+        >
+          How to Register?
+        </a>
       </div>
     </div>
   );

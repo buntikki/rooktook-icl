@@ -54,8 +54,7 @@ export const TournamentHeader = () => {
                 pool, ICL is India&apos;s largest chess tournament, setting the
                 stage for a Guinness World Record.
               </p>
-
-              <div className="mt-7 hidden md:flex flex-wrap items-stretch justify-center gap-4 md:justify-start">
+              <div className="mt-7 hidden md:flex flex-wrap items-stretch justify-center gap-4 md:justify-start ">
                 <a
                   href="https://drive.google.com/file/d/1nfwKA_M_DPAfvx5myHWJddtL64dqg6ay/view?usp=sharing"
                   target="_blank"
@@ -64,6 +63,13 @@ export const TournamentHeader = () => {
                   MORE INFO
                 </a>
                 <RegisterController />
+                <a
+                  href="https://drive.google.com/file/d/16zEUpFOPQiWSd6-xSGBozAyA35CM9-V-/view?usp=sharing"
+                  target="_blank"
+                  className="text-left text-lg font-semibold self-center text-white underline hover:text-white/80 transition-colors cursor-pointer"
+                >
+                  How to Register?
+                </a>
               </div>
             </div>
 
