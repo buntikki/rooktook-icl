@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Indian Chess League",
     images: [
       {
-        url: "/images/og-image-v2.jpg",
+        url: "https://www.indianchessleague.com/images/og-image-v2.jpg",
         width: 1200,
         height: 630,
         alt: "Indian Chess League - India's First and Largest Chess League",
@@ -56,12 +56,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: meta.title,
     description: meta.description,
-    images: ["/images/og-image-v2.jpg"],
+    images: ["https://www.indianchessleague.com/images/og-image-v2.jpg"],
   },
   icons: {
-    icon: "/images/web-app-manifest-192x192.png",
-    shortcut: "/images/web-app-manifest-192x192.png",
-    apple: "/apple-touch-icon.png",
+    icon: "https://www.indianchessleague.com/images/web-app-manifest-192x192.png",
+    shortcut:
+      "https://www.indianchessleague.com/images/web-app-manifest-192x192.png",
+    apple: "https://www.indianchessleague.com/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
   appleWebApp: {
