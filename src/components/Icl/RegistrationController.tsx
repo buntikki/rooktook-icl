@@ -1,13 +1,18 @@
-
 import { ArrowUpRight } from "lucide-react";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export const RegisterController = () => {
+  const handleRegisterClick = () => {
+    // Track the register button click event
+    sendGAEvent({ event: "register_click", value: "register_now_button" });
+  };
+
   return (
     <>
       <a
         href="https://in.bookmyshow.com/sports/indian-chess-league-2025/ET00460450"
         target="_blank"
-
+        onClick={handleRegisterClick}
         className="inline-flex w-full sm:w-[190px] items-center justify-center gap-2 rounded-[10px] bg-[#54C339] px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-[#54C339]/90"
       >
         REGISTER NOW
