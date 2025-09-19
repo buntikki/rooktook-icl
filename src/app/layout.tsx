@@ -1,5 +1,3 @@
-import OGImage from "@/public/images/og-image.jpg";
-import Favicon from "@/public/images/web-app-manifest-192x192.png";
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 import type { Metadata } from "next";
@@ -46,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Indian Chess League",
     images: [
       {
-        url: OGImage.src,
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Indian Chess League - India's First and Largest Chess League",
@@ -58,11 +56,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: meta.title,
     description: meta.description,
-    images: [OGImage.src],
+    images: ["/images/og-image.jpg"],
   },
   icons: {
-    icon: Favicon.src,
-    shortcut: Favicon.src,
+    icon: "/images/web-app-manifest-192x192.png",
+    shortcut: "/images/web-app-manifest-192x192.png",
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
