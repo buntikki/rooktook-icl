@@ -1,5 +1,5 @@
-import OGImage from "@/../public/images/og-image.jpg";
-import Favicon from "@/../public/images/web-app-manifest-192x192.png";
+import OGImage from "@/public/images/og-image.jpg";
+import Favicon from "@/public/images/web-app-manifest-192x192.png";
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 import type { Metadata } from "next";
@@ -20,6 +20,10 @@ const meta = {
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
+  metadataBase: new URL("https://indianchessleague.com"),
+  alternates: {
+    canonical: "https://indianchessleague.com/",
+  },
   keywords: [
     "ICL",
     "Indian Chess League",
@@ -38,14 +42,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: meta.title,
     description: meta.description,
-    url: "https://www.indianchessleague.com/",
-    siteName: "ICL",
+    url: "https://indianchessleague.com/",
+    siteName: "Indian Chess League",
     images: [
       {
         url: OGImage.src,
         width: 1200,
         height: 630,
-        alt: "RookTook – Discover curated experiences",
+        alt: "Indian Chess League - India's First and Largest Chess League",
       },
     ],
     type: "website",
