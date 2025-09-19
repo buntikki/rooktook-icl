@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowUpRight } from "lucide-react";
 import { sendGAEvent } from "@next/third-parties/google";
 
