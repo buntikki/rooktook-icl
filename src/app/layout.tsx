@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Indian Chess League",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-image-v2.jpg",
         width: 1200,
         height: 630,
         alt: "Indian Chess League - India's First and Largest Chess League",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: meta.title,
     description: meta.description,
-    images: ["/images/og-image.jpg"],
+    images: ["/images/og-image-v2.jpg"],
   },
   icons: {
     icon: "/images/web-app-manifest-192x192.png",
